@@ -1,0 +1,254 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    /*    background-color: yellow;*/
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    width: 295px;
+    height: 120px;
+    background-color: #80b7b3;
+    color: #fff;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 68px;
+    -webkit-box-shadow: 4px 32px 41px -22px rgba(79, 79, 79, 1);
+    box-shadow: 4px 32px 41px -22px rgba(79, 79, 79, 1);
+    margin-left: 435px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 189px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #e6e8e9;
+    font-weight: 400;
+    padding-top: 40px;
+    letter-spacing: 55px;
+}
+
+.content_travel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.text_travel {
+    width: 445px;
+    /* text-align: left; */
+}
+.text_travel p {
+    font-size: 20px;
+}
+.text_travel h3 {
+    font-size: 30px;
+}
+.text_travel2 {
+    width: 445px;
+}
+
+.big_img {
+    position: absolute;
+    right: 0;
+}
+.small_img {
+    position: absolute;
+    top: 450px;
+    /* left: 430px; */
+}
+
+.text_travel a {
+    width: 195px;
+    height: 43px;
+    background-color: #80b7b3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.travel h2,
+h3,
+p {
+    text-align: left;
+}
+
+.travel h2 {
+    color: #7d8b90;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.travel h2 {
+    color: #7d8b90;
+}
+
+.travelTwo h2 {
+    color: #7d8b90;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.travelTwo {
+    /* margin-top: 500px; */
+    margin: auto;
+    width: 900px;
+    padding-top: 600px;
+
+}
+
+.travelTwo h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.travelTwo h2 {
+    
+    text-align: center;
+}
+
+.travelTwo img {
+    margin: auto;
+    width: 845px;
+    height: 565px;
+}
+
+.text_travelTwo {
+    width: 755px;
+    margin: auto;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.text_travelTwo a {
+    width: 195px;
+    height: 43px;
+    background-color: #80b7b3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 55px;
+}
+
+.video  img{
+    width: 100%;
+    height: 500px;
+}
+
+.travel3 {
+    margin-top: 135px;
+    position: relative;
+    padding-top: 10px;
+}
+.travel3 blockquote{
+    font-style: italic;
+    font-size: 20px;
+    width: 555px;
+    height: 175px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 360px;
+    left: 330px;
+}
+/* .travel3 cite {
+    position: absolute;
+    z-index: 1;
+} */
+.travel3 h2 {
+    color: #7d8b90;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+.rectangle {
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+.travel3 h3{
+    margin-left: 560px;
+    /* margin-top: 50px; */
+    font-size: 30px;
+}
+.graySquare {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.travel3 a {
+    width: 195px;
+    height: 43px;
+    background-color: #80b7b3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 55px;
+    position: absolute;
+    z-index: 1;
+    top: 510px;
+    left: 550px;
+}
+.bootom {
+    background-image: url("//img/photo5.png");
+    width: 100%;
+    height: 530px;
+    margin-top: 730px;
+}
+footer {
+    width: 100%;
+    height: 530px;
+    margin-top: 730px;
+}
+
+form {
+    color: white;
+    width: 670px;
+    height: 330px;
+    margin: auto;
+    border: 1px solid white;
+    background: black;
+    margin: auto;
+}
